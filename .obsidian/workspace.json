@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "17bf895b337bc3a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c81aca393199646c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30995a36476b3532",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c778093de2dae76b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4dda6970e2407fe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11e117878413f91a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a276b8a215b4497c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e1655d8f8cd441d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "245a1215e1233665",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e523cc6ea174739",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dc233a33cdc0182",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "ac5d819e38a07a07",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mardown语法教程/MarkDown教程 Obsidian版.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "MarkDown教程 Obsidian版 的出链列表"
+            }
+          },
+          {
+            "id": "c0e34c328d7fbc5f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a1918e4980c9d702",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mardown语法教程/MarkDown教程 Obsidian版.md"
+              },
+              "icon": "lucide-list",
+              "title": "MarkDown教程 Obsidian版 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "30995a36476b3532",
+  "lastOpenFiles": [
+    "公卫考研复试/流行病学PDF版/1 绪论.pdf",
+    "公卫考研复试/流行病学/1 绪论.md",
+    "公卫考研复试/流行病学/2 疾病的分布.md",
+    "Mardown语法教程/MarkDown教程 Obsidian版.md",
+    "公卫考研复试/流行病学/图片链接/流行病学的研究方法.png",
+    "公卫考研复试/流行病学/图片链接",
+    "公卫考研复试/流行病学/14 其他各论.md",
+    "公卫考研复试/流行病学/13 药物流行病学.md",
+    "公卫考研复试/流行病学/12 突发公共卫生事件流行病学.md",
+    "公卫考研复试/流行病学/11 传染流行病学.md",
+    "公卫考研复试/流行病学/4 筛检.md",
+    "公卫考研复试/流行病学PDF版",
+    "公卫考研复试/流行病学/10 公共卫生监测.md",
+    "公卫考研复试/流行病学/9 预防策略.md",
+    "公卫考研复试/流行病学/8 病因及其发现和推断.md",
+    "公卫考研复试/流行病学/7 实验流行病学.md",
+    "公卫考研复试/流行病学/6 队列研究.md",
+    "公卫考研复试/流行病学/5 病例对照研究.md",
+    "公卫考研复试/流行病学/3 描述性研究.md",
+    "生物统计学课程学习/1-概率论与数理统计/附1 常见统计分布及其均值方差.md",
+    "生物统计学课程学习/13-药学代谢动力学",
+    "生物统计学课程学习/12-生物学/基因组学",
+    "生物统计学课程学习/12-生物学/遗传学",
+    "生物统计学课程学习/12-生物学/癌症生物学",
+    "生物统计学课程学习/12-生物学",
+    "公卫考研复试",
+    "公卫考研复试/医学统计学",
+    "生物统计学课程学习/5-贝叶斯统计/1 基础概念.md",
+    "生物统计学课程学习/5-贝叶斯统计/2 先验分布.md",
+    "生物统计学课程学习/5-贝叶斯统计/3 常见统计模型参数的后验分布.md",
+    "统计学课程学习/未命名.md",
+    "欢迎.md"
+  ]
+}
