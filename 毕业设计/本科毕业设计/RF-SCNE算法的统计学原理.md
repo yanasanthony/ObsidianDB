@@ -9,7 +9,7 @@
 [**Step3**] 由于PPI网络映射得到的子网路是无方向性的，需要通过构建因果强度指数$w$来判断。使用非线性随机森林模型，分别构建因变量为基因$g^{k}$的表达值$E(g^{k})$，自变量为邻接基因群$\{g_{j}^{k}\}_{j=1}^{M}$的表达值$\{E(g_{j}^{k})\}_{j=1}^{M}$的预测模型$H_{1}$以及因变量为基因$g^{k}$的表达值$E(g^{k})$，自变量为邻接基因群$\{g_{j}^{k}\}_{j\neq j'}$的表达值$\{E(g_{j}^{k})\}_{j \neq j'}$的预测模型$H_{0}$，均使用相同的n个参考样本（定义的正常样本）。将n个参考样本划分为80%的训练集和20%的验证集，采用网格搜索调整参数值。具体公式如下：
 对$H_{1}$模型：$\varepsilon_{1}=E(g^{k})-RF_{1}(\{E(g_{j}^{k})\}_{j=1}^{M}),MSE_{\varepsilon_{1}}=\frac{5}{N}\sum_{j=1}^{\frac{N}{5}}\varepsilon_{1}^{2}$
 对$H_{0}$模型：$\varepsilon_{0}=E(g^{k})-RF_{0}(\{E(g_{j}^{k})\}_{j=j'}),MSE_{\varepsilon_{0}}=\frac{5}{N}\sum_{j=1}^{\frac{N}{5}}\varepsilon_{0}^{2}$
-在最优模型下，计算时间$t$时一个病例样本的基因间因果强度：$w_{in}(g_{j}^{k} \rightarrow g^{k})=ln\{\frac{MSE(\varepsilon_{0})}{MSE(\varepsilon_{1})}\}$
+在最优模型下，计算时间$t$时一个病例样本的基因间因果强度：$w_{in}(g_{j}^{k} \rightarrow g^{k})=ln\{\frac{\varepsilon_{0}}{\varepsilon_{1}}\}$
 由PPI网络获得互信息：$I(g_{j}^{k};g^{k}):I(g_{k}^{k};g^{k})>\beta*max_{j}I(g_{j}^{k};g^{k})=cutoff$
 
 ---
